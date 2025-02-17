@@ -1,0 +1,13 @@
+patch = { crates-io = { sonarr = { path = ".rhack/sonarr-0.1.0" } } }
+[package]
+name = "overseerr-sonarr"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+sonarr = "0.1.0"
+dotenvy = "0.15.7"
+dotenvy_macro = "0.15.7"
+log = "0.4.27"
+env_logger = "0.11.6"
