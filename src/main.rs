@@ -4,7 +4,6 @@ use tokio::time;
 use clap::Parser;
 
 use std::env;
-use dotenvy::dotenv;
 
 use sonarr::apis::configuration::{Configuration, ApiKey};
 use sonarr::apis::{command_api, tag_api, series_api, series_editor_api, quality_profile_api};
