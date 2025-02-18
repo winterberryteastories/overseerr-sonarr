@@ -74,12 +74,6 @@ async fn process_series(
         if is_anime {
             // let's set all anime to series type Standard and see how it goes
             series_editor.series_type = Some(SeriesTypes::Standard);
-
-            if original_language.is_some() {
-                // english anime shows
-                update_series_quality_profile(sonarr_config,
-                    &mut series_editor, "[DE.Anime] WEB + BR 1080p").await?;
-            };
         } else if original_language.is_some() {
             // german regular shows
             series_editor.root_folder_path = Some(Some("/data/media/tv-de".to_string()));

@@ -9,9 +9,9 @@ To make this work properly to the following settings in overseerr:
 * Disable `Enable Automatic Search`
 
 Currently the behavior is:
-* All anime is set to series type "Standard"
-* German shows get a different root folder (`/data/media/tv-de`)
-* German shows get a different quality profile (also depends on whether it's anime or not)
+* All anime is set to series type "Standard".
+* German shows get a different root folder (`/data/media/tv-de`).
+* German shows get a different quality profile.
 
 # TODO
 Currently this is not really customizable but if someone shows interest I'd be happy to improve it :)
