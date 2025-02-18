@@ -1,4 +1,4 @@
-FROM rust:1.84.1 AS build
+FROM rust:1.84.1-bullseye AS build
 
 # create a new empty shell project
 RUN USER=root cargo new --bin overseerr-sonarr
